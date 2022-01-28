@@ -236,7 +236,7 @@ void init_opengl(void)
 	//Set 2D mode (no perspective)
 	glOrtho(0, g.xres, 0, g.yres, -1, 1);
 	//Set the screen background color
-	glClearColor(0.1, 1.0, 0.1, 1.0);
+	glClearColor(0.1, 0.1, 0.1, 1.0);
 }
 
 void physics()
@@ -253,7 +253,7 @@ void render()
 	glClear(GL_COLOR_BUFFER_BIT);
 	//Draw box.
 	glPushMatrix();
-	glColor3ub(150, 160, 220);
+	glColor3ub(150, 060, 220);
 	glTranslatef(pos[0], pos[1], 0.0f);
 	glBegin(GL_QUADS);
 		glVertex2f(-w, -w);
