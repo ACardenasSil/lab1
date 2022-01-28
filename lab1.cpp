@@ -236,7 +236,7 @@ void init_opengl(void)
 	//Set 2D mode (no perspective)
 	glOrtho(0, g.xres, 0, g.yres, -1, 1);
 	//Set the screen background color
-	glClearColor(0.1, 0.1, 0.1, 1.0);
+	glClearColor(0.1, 1.0, 0.1, 1.0);
 }
 
 void physics()
